@@ -1,0 +1,71 @@
+.border{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 2px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content:center;
+}
+.align-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+/* Advanced scrollbar styling */
+::-webkit-scrollbar {
+    width: 0; /* Hides the scrollbar */
+    background: transparent;
+}
+
+
+
+.pritam{
+    background-image: url("prtamartist.jpeg");
+}
+.rahman{
+    background-image: url("arrahman.jpeg");
+
+}
+.arijit{
+    background-image: url("arijit.jpeg");
+}
+.anirudh{
+    background-image: url("anurudh.jpeg");
+}
+.honeysingh{
+    background-image: url("honeysingh.jpeg");
+}
+.gloryhoneysingh{
+    background-image: url("gloryhoneysingh.jpeg");
+}
+.ashique2{
+    background-image: url("ashique2.jpeg");
+}
+.TumMere{
+    background-image: url("JoTumMere.jpeg");
+}
+.Chuttamalle{
+    background-image: url("chuttamalle.jpeg");
+}
+.animal{
+    background-image: url("animal.jpeg");
+}
+.arijitradio{
+    background-image: url("arijitradio.jpeg");
+}
+.kishorkumar{
+    background-image: url("kishorkumar.jpeg");
+}
+.diljitdosa{
+    background-image: url("diljitdosa.jpeg");
+}
+.spbradio{
+    background-image: url("spbradio.jpeg");
+}
+.rahmanradio{
+    background-image: url("rahmanradio.jpeg");
+}

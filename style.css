@@ -1,0 +1,363 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    align-items: center;
+    margin-left: 28px;
+}
+
+.container {
+    width: 100vw;
+    height: 9vh;
+    background-color: black;
+    color: white
+}
+
+.home {
+    opacity: 0.8;
+
+}
+
+.home:hover {
+    opacity: 1;
+    filter: invert(1);
+
+}
+
+.search {
+    width: 500px;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.search-box {
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    margin: 4px;
+    background-color: rgb(54, 49, 49);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+
+}
+
+.searchinput {
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 20px;
+    border: 50px;
+    padding: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(54, 49, 49);
+    color: white;
+    border-right: 1px solid rgb(158, 126, 126);
+}
+
+.librarylogo {
+    opacity: 0.8;
+}
+
+.librarylogo:hover {
+    opacity: 1;
+}
+
+.login {
+    background-color: white;
+    color: black;
+}
+.login:hover{
+    font-size: large;
+}
+.register {
+    padding: 2px 10px 3px 2px;
+    gap: 3px;
+}
+
+.button {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.signup {
+    background-color: black;
+    color: rgb(181, 180, 180);
+}
+.signup:hover{
+    font-size: large;
+}
+
+.container2 {
+    background-color: black;
+    padding: 3px;
+}
+
+.left {
+    width: 26vw;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.subleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.yourLib {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.symbol{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.symbol:hover{
+    background-color: rgba(128, 128, 128, 0.318);
+}
+.pulsSymbol{
+    filter: invert(1);
+    cursor: pointer;
+    
+}
+
+.createPlaylist {
+    height: 300px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+
+}
+
+.Playlist {
+    height: 150px;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(77, 74, 74);
+    position: relative;
+}
+.Playlist h3{
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+.Playlist h4{
+    position: absolute;
+    top:70px;
+    left:20px;
+}
+.Playlist button{
+    position: absolute;
+    top:110px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 130px;
+    border-radius: 50px;
+    left:20px;
+}
+
+.Podcast {
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(77, 74, 74);
+    position: relative;
+}
+.Podcast h3{
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+.Podcast h4{
+    position: absolute;
+    top:70px;
+    left:20px;
+}
+.Podcast button{
+    position: absolute;
+    top:110px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 160px;
+    border-radius: 50px;
+    left:20px;
+}
+.footer {
+    position: absolute;
+    top: 480px;
+    height: 100px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-size: small;
+    margin: 2px;
+    gap: 20px;
+    margin-right: 20px;
+
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+.right {
+    width: 74vw;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+    margin-left: 10px;
+    overflow-y: scroll;
+}
+
+.header {
+    padding: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.header p {
+    cursor: pointer;
+}
+
+.artists {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 20px;
+    height: 220px;
+    width: 160px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-image, border-radius 3s ease-in-out;
+}
+
+.card:hover {
+    background-image: linear-gradient(0deg, rgba(128, 128, 128, 0.511), rgb(29, 28, 28));
+}
+
+.card h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 8px;
+}
+
+.card p {
+    color: gray;
+    margin-left: 8px;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+}
+
+.albums {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin-left: 20px;
+    height: 250px;
+    width: 170px;
+    flex-wrap: wrap;
+    color: white;
+    padding: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cards:hover {
+    background-image: linear-gradient(0deg, rgba(128, 128, 128, 0.437), rgba(77, 75, 75, 0.377));
+}
+
+.images {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.cards h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 8px;
+}
+
+.cards p {
+    color: gray;
+    margin-left: 10px;
+}
+
+.radios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
